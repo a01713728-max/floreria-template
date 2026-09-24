@@ -11,7 +11,8 @@ export default function WhatsappFab() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Escríbenos por WhatsApp"
-      className="group fixed bottom-5 right-5 z-40 flex items-center gap-3"
+      className="group fixed z-40 flex items-center gap-3"
+    style={{ bottom: 'calc(1.25rem + env(safe-area-inset-bottom))', right: 'calc(1.25rem + env(safe-area-inset-right))' }}
     >
       <span className="pointer-events-none translate-x-2 rounded-full bg-panel px-4 py-2 text-sm text-fg opacity-0 shadow-lg ring-1 ring-line transition duration-300 group-hover:translate-x-0 group-hover:opacity-100 group-focus-visible:translate-x-0 group-focus-visible:opacity-100">
         ¿Te ayudamos a elegir?

@@ -5,8 +5,7 @@ import WhatsappCheckout from './WhatsappCheckout';
 import { store, formatPrice } from '../../config/store.config';
 import { emotions } from '../../config/emotions.config';
 
-const input = 'mt-1 w-full rounded-md border border-line bg-card px-3 py-2 text-fg mood-t placeholder:text-muted';
-const MAX = 180;
+const input = 'mt-1 w-full rounded-md border border-line bg-card px-3 py-2 text-base text-fg mood-t placeholder:text-muted';const MAX = 180;
 
 function Field({ label, children }) {
   return <label className="block text-sm">{label}{children}</label>;
