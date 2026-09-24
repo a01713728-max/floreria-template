@@ -6,7 +6,7 @@ export const store = {
   name: 'Maison Pétalo',
   tagline: 'Flores que dicen lo que tú no sabes cómo decir',
   banner: 'Entrega el mismo día en Querétaro si pides antes de las 2 pm',
-  whatsapp: '524421234567', // código de país + número, sin + ni espacios
+  whatsapp: '527721601652', // código de país + número, sin + ni espacios
   currency: 'MXN',
   locale: 'es-MX',
 
